@@ -95,17 +95,20 @@ color: #FFF;
 }
 
 .navbar-inverse {
-background-color: rgba(20, 173, 124, 1);
+background-color: #DEA336;
 border-color: rgba(20, 173, 124, 1)
 }
  
+
+ .navbar-inverse, .head-btn-one, .scl, #footer {
+background-color: #D59330;
+}
 /*=======================================
     HOME SECTION STYLES
 ==================================================*/
 
 
 .head-btn-one {
-    background-color: rgba(20, 173, 124, 1);
      border: 0px solid #fff;
 
 }
@@ -124,7 +127,7 @@ border-color: rgba(20, 173, 124, 1)
 .head-last {
     font-size:20px ;
     font-weight:300;
-    padding:5px 20px 20px 20px;
+    padding:5px 200px 20px 200px;
 }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -249,8 +252,9 @@ padding: 5px;
 ==================================================*/
 
 .color-bg-one {
-    background-color:rgba(20, 173, 124, 1)!important;
     color:#fff;
+    background-color: rgba(255, 198, 141,0.5);
+    padding-top: 0px;
 }
 .color-white {
    background-color:#fff!important;
@@ -270,7 +274,6 @@ padding: 5px;
 ==================================================*/
 
 .scl {
-    background:rgba(20, 173, 124, 1);
     
     color:#fff;
 }
@@ -292,8 +295,25 @@ padding: 5px;
     color:#fff;
     padding:20px 50px 20px 50px;
     text-align:right;
-    background-color:rgba(20, 173, 124, 1);
 }
 
 
+h5 {
+    letter-spacing: 1px;
+}
 
+.img-circle {
+    width:180px;
+    height:180px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+
+.name-major {
+    padding-top: 30px;
+}
+
+.contenthover {
+    padding:  5% 20px 0 20px;
+}

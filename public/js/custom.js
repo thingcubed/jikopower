@@ -74,6 +74,40 @@
     }
     // Initializing ///
 
+
+    // $(".name-major").on({
+    //     mouseenter: function () {
+    //         alert("i am making money");
+    //     },
+    //     mouseleave: function () {
+    //         alert("i am making money lot");
+    //     }
+    // });
+
+    $('#d1').contenthover({
+        overlay_background: "rgba(255, 204, 102,0.9)"
+    });
+
+    $('#d2').contenthover({
+        overlay_background: "rgba(255, 204, 102,0.9)"
+    });
+
+    $('#d3').contenthover({
+        overlay_background: "rgba(255, 204, 102,0.9)"
+    });
+
+    $('#d4').contenthover({
+        overlay_background: "rgba(255, 204, 102,0.9)"
+    });
+
+    $('#d5').contenthover({
+        overlay_background: "rgba(255, 204, 102,0.9)"
+    });
+
+    $('#d6').contenthover({
+        overlay_background: "rgba(255, 204, 102,0.9)"
+    });
+
     $(document).ready(function () {
         mainApp.main_fun();
     });
