@@ -100,7 +100,7 @@ border-color: rgba(20, 173, 124, 1)
 }
  
 
- .navbar-inverse, .head-btn-one, .scl, #footer {
+ .navbar-inverse, .head-btn-one, .scl, #footer,{
 background-color: #D59330;
 }
 /*=======================================
@@ -114,8 +114,8 @@ background-color: #D59330;
 }
 
 #home {
-    padding-top:130px;
-    padding-bottom:200px;
+    padding-top:200px;
+    padding-bottom:250px;
     color:#fff;
 }
 .head-main {
@@ -316,4 +316,34 @@ h5 {
 
 .contenthover {
     padding:  5% 20px 0 20px;
+}
+
+thead {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table th {
+    background-color: rgb(13, 138, 98);
+    color: white;
+    margin-top: 10px !important;
+}
+
+.td-left {
+    background-color: rgb(255, 209, 25);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.glyphicon-ok {
+    font-size: 20pt;
+    color: green;
+}
+.glyphicon-remove {
+    font-size: 20pt;
+    color: red;
 }
