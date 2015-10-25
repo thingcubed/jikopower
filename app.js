@@ -14,7 +14,9 @@ var debug = require('debug')('jikopower:server');
 var http = require('http');
 
 // view engine setup
+app.use(express.static(__dirname + '/public'));
 app.set('views', path.join(__dirname, 'views'));
+
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
@@ -25,7 +27,10 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+
+
+
+app.set('appPath', path.join(__dirname, '/public'));
 
 app.use('/', routes);
 app.use('/users', users);
