@@ -352,3 +352,7 @@ thead {
 .cntl-icon {
     font-size: 12pt !important;
 }
+
+.no-padding-top {
+    padding-top: 5px !important;
+}
