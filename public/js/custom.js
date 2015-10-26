@@ -42,15 +42,16 @@
             $(function () {
                 $.vegas('slideshow', {
                     backgrounds: [
-                      { src: 'images/1.jpg', fade: 1000, delay: 9000 }, //CHANGE THESE IMAGES WITH YOUR ORIGINAL IMAGES
-                  //THESE IMAGES ARE FOR DEMO PURPOSE ONLY YOU, CAN NOT USE THEM WITHOUT AUTHORS PERMISSION
+                    { src: 'images/1.jpg', fade: 1000, delay: 50000 }, 
+                     { src: 'images/2.png', fade: 1000, delay: 50000}, 
+                     { src: 'images/3.png', fade: 1000, delay: 50000 }
                                          
                     ]
+                })
+                ('overlay', {
+                    /** SLIDESHOW OVERLAY IMAGE **/
+                    src: 'plugins/vegas/overlays/01.png' // THERE ARE TOTAL 01 TO 15 .png IMAGES AT THE PATH GIVEN, WHICH YOU CAN USE HERE
                 });
-                // ('overlay', {
-                //     /** SLIDESHOW OVERLAY IMAGE **/
-                //     src: 'plugins/vegas/overlays/01.png' // THERE ARE TOTAL 01 TO 15 .png IMAGES AT THE PATH GIVEN, WHICH YOU CAN USE HERE
-                // });
 
             });
 
@@ -110,6 +111,28 @@
 
     $(document).ready(function () {
         mainApp.main_fun();
+
+        $('.cntl').cntl({
+
+        // The amount of "scroll padding" to allow 
+        // The more, the later the state will be revealed
+        revealbefore: 300,
+
+        // The animate class
+        // This class should have animation rules in css
+        anim_class: 'cntl-animate',
+
+        // A callback once the state has been revealed
+        onreveal: null
+
+});
+
+
+
+
+
+
+
     });
 
 }(jQuery));

@@ -303,8 +303,8 @@ h5 {
 }
 
 .img-circle {
-    width:180px;
-    height:180px;
+    width: 180px;
+    height: 190px;
     padding: 10px;
     display: inline-block;
     float: left;
@@ -312,6 +312,7 @@ h5 {
 
 .name-major {
     padding-top: 30px;
+    margin-left: 200px;
 }
 
 .contenthover {
@@ -346,4 +347,8 @@ thead {
 .glyphicon-remove {
     font-size: 20pt;
     color: red;
+}
+
+.cntl-icon {
+    font-size: 12pt !important;
 }
