@@ -370,7 +370,6 @@ thead {
   width: 200px;
   margin-bottom: 10%;
   z-index:1000;
-  padding-top: 30%;
 }
 
 .btn {
@@ -417,7 +416,7 @@ thead {
 }
 
 .content {
-    margin-top: 200px;
+    margin-top: 5%;
 }
 
 .one-by-one {
