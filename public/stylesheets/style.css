@@ -1,20 +1,4 @@
 ﻿
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-
-
-/*=======================================
-    GENERAL STYLES
-==================================================*/
-
 body {
     font-family:'Open Sans', sans-serif;
     font-size:14px;
@@ -68,20 +52,19 @@ section {
 }
 
 
-
 /*=======================================
     NAV BAR STYLES
 ==================================================*/
 /* ADDED PADDING IN NAVBAR */
 .navbar {
-    padding:10px;
+    padding:12px;
      -webkit-transition: background .8s ease-out,padding .8s ease-out;
         -moz-transition: background .8s ease-out,padding .8s ease-out;
         transition: background .8s ease-out,padding .8s ease-out;
 }
 /* CLASS FOR REMOVING PADDING IN NAVBAR*/
 .navbar-pad-original {
-      padding:0px;
+      padding:10px;
 }
 
 
@@ -96,13 +79,19 @@ color: #FFF;
 }
 
 .navbar-inverse {
-background-color: #DEA336;
+background-color: #F4AA53;
 border-color: rgba(20, 173, 124, 1)
 }
  
+ .navbar-brand {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    padding-top: 0px;
+ }
 
  .navbar-inverse, .head-btn-one, .scl, #footer,{
-background-color: #D59330;
+background-color: #F4AA53;
 }
 /*=======================================
     HOME SECTION STYLES
@@ -480,5 +469,9 @@ thead {
 */
 
 
+.title {
+    text-align: left;
+    font-weight: bold;
+}
 
 
