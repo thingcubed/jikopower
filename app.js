@@ -6,8 +6,12 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
-var spec = require('./routes/spec');
+var commitment = require('./routes/commitment');
+var contact= require('./routes/contact');
+var problem= require('./routes/problem');
+var team = require('./routes/team');
+var timeline= require('./routes/timeline');
+
 var app = express();
 
 var debug = require('debug')('jikopower:server');
@@ -33,8 +37,12 @@ app.use(cookieParser());
 app.set('appPath', path.join(__dirname, '/public'));
 
 app.use('/', routes);
-app.use('/users', users);
-app.use('/spec', spec);
+
+app.use('/commitment', commitment);
+app.use('/contact', contact);
+app.use('/problem', problem);
+app.use('/team', team);
+app.use('/timeline', timeline);
 app.use('/views', express.static(__dirname + '/views')); 
 
 // catch 404 and forward to error handler

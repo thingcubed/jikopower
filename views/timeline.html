@@ -1,0 +1,155 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Kanghui Liu">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title> JikoPower</title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- FONTAWESOME STYLE CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <!-- VEGAS STYLE CSS -->
+
+    <link href="plugins/timeline/lib/cntl.css" rel="stylesheet" />
+<!--     <link href="assets/scripts/vegas/jquery.vegas.min.css" rel="stylesheet" /> -->
+    <!-- CUSTOM STYLE CSS -->
+    <link href="stylesheets/style.css" rel="stylesheet" />
+    <link href="stylesheets/timelinr.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+     <div class="navbar navbar-inverse navbar-fixed-top scrollclass" >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">JikoPower</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">HOME</a></li>
+                     <li><a href="/commitment">COMMITMENT</a></li>
+                    <li><a href="/problem">PROBLEM</a></li>
+                    <li><a href="/timeline">TIMELINE</a></li>
+                    <li><a href="/team">TEAM</a></li>
+                    <li><a href="/contact">CONTACT</a></li>                    
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+   
+
+  <div id="timeline">
+    <ul id="dates">
+      <li><a href="#1900">Oct 27.2015</a></li>
+      <li><a href="#1930">Dec 2015</a></li>
+      <li><a href="#1944">Jan 2016</a></li>
+      <li><a href="#1950">Feb 2016</a></li>
+      <li><a href="#1971">March 2016</a></li>
+      <li><a href="#1977">Mar-May 2-16</a></li>
+      <li><a href="#1989">June 2016</a></li>
+    </ul>
+    <ul id="issues">
+      <li id="1900">
+        <img src="images/1.png" width="256" height="256" />
+        <h1>Oct 27.2015</h1>
+        <p>SVP Event</p>
+      </li>
+      <li id="1930">
+        <img src="images/2.png" width="256" height="256" />
+        <h1>Dec 2015</h1>
+        <p>Finalize R&D</p>
+      </li>
+      <li id="1944">
+        <img src="images/3.png" width="256" height="256" />
+        <h1>Jan 2016</h1>
+        <p>Secure Funding</p>
+      </li>
+      <li id="1950">
+        <img src="images/4.png" width="256" height="256" />
+        <h1>Feb 2016</h1>
+        <p>Secure Funding</p>
+      </li>
+      <li id="1971">
+        <img src="images/5.png" width="256" height="256" />
+        <h1>March 2016</h1>
+        <p>Establish Regional Partnars</p>
+      </li>
+      <li id="1977">
+        <img src="images/6.png" width="256" height="256" />
+        <h1>Mar-May 2-16</h1>
+        <p>Begin mangufacturing</p>
+      </li>
+      <li id="1989">
+        <img src="images/7.png" width="256" height="256" />
+        <h1>June 2016</h1>
+        <p>Move to Kenya</p>
+      </li>
+    </ul>
+    <div id="grad_left"></div>
+    <div id="grad_right"></div>
+    <a href="#" id="next">+</a>
+    <a href="#" id="prev">-</a>
+  </div>
+
+
+  <div class="learn-more">
+        <button type="button" class="btn"><a href="/team">Our awesome team</a></button>
+  </div>
+  
+
+
+    
+   
+  
+    <!--END SOCIAL SECTION-->
+    <!--FOOTER SECTION -->
+    <div class="footer">
+        2015 www.jikopowerinc.com | All Right Reserved | website made by: <a href="http://liukanghui.xyz">Kanghui Liu</a>      
+    </div>
+    <!-- END FOOTER SECTION -->
+
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <!-- VEGAS SLIDESHOW SCRIPTS -->
+     <!-- SCROLL SCRIPTS -->
+    <script src="plugins/timeline/horizontal/jquery.timelinr-0.9.54.js"></script>
+
+
+  <script>
+    $(function(){
+      $().timelinr({
+        arrowKeys: 'true'
+      })
+    });
+  </script>
+   
+    <!-- CUSTOM SCRIPTS -->
+
+</body>
+</html>
